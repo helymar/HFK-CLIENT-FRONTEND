@@ -63,24 +63,35 @@
       align-items: center;
   }
   .HFK-box-icon{
-      background-color: #3D88E2;
-      height: 100px;
-      width: 100px ;
-      text-align: center;
-      color: white;
-      display:flex;
-      float: left;
-      justify-content: center;
-      align-items: center;
-  }
-  .HFK-box-text{
-      background-color: white;
-      height: 100px;
-      text-align: center;
-      color: black;
-      padding-left: 110px;
-  
-  }
+    background-color: #3D88E2;
+    height: 125px;
+    width: 10px ;
+    text-align: center;
+    color: white;
+    display:flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+.HFK-box-icon-light{
+  background-color: white;
+  height: 100px;
+  width: 100px ;
+  text-align: center;
+  color: white;
+  display:flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
+}
+.HFK-box-text{
+    background-color: white;
+    height: 125px;
+    text-align: center;
+    color: black;
+    margin-left: 15px;
+
+}
   .HFK-TitleBar{
       position: sticky;
       margin-top: 0px;
@@ -110,6 +121,8 @@
       font-size: 20px;
       font-weight: bold;
       display: flex;
+      justify-content: center;
+      align-items: center;
       flex-flow: row wrap;
       justify-content: left;
       align-items: left;
@@ -117,16 +130,18 @@
   }
   .HFK-Amount-Card{
       color: #3D88E2;
-      font-size: 12px;
-      font-weight: 300;
+      font-size: 16px;
+      font-weight: 500;
       display: flex;
+      justify-content: center;
+      align-items: center;
       flex-flow: row wrap;
       justify-content: left;
       align-items: left;
   
   }
   .HFK-price-Card{
-      color: #1058C1;
+      color: black;
       font-size: 16px;
       font-weight: normal;
       display: flex;
@@ -135,6 +150,20 @@
       align-items: left;
   
   }
+  .btn-primary{
+      background-color: #3D88E2;
+      color: white;
+      border-color: #3D88E2;
+      font-size: x-large;
+      font-weight: 500;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+      height: 100px;
+      
+  }
+
   .navbar-nav {
       text-align: center;
       color: white;
@@ -143,13 +172,12 @@
       align-items: center;
   }
   .HFK-link-Card{
-      color: #1058C1;
+      color: white;
       font-weight: normal;
       display: flex;
       justify-content: right;
       align-items: right;
       padding-right: 32px;
-      margin-top: -30px;
   
   }
   h1,
