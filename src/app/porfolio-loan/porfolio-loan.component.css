@@ -64,8 +64,8 @@
   }
   .HFK-box-icon{
       background-color: #3D88E2;
-      height: 100px;
-      width: 100px ;
+      height: 125px;
+      width: 10px ;
       text-align: center;
       color: white;
       display:flex;
@@ -75,10 +75,10 @@
   }
   .HFK-box-text{
       background-color: white;
-      height: 100px;
+      height: 125px;
       text-align: center;
       color: black;
-      padding-left: 110px;
+      margin-left: 15px;
   
   }
   .HFK-TitleBar{
@@ -94,7 +94,12 @@
 }
   .container-fluid {
       margin-top: 10px;
+      height: 100px;
   }
+  .container-fluid-porfolio{
+    margin-top: 15px;
+    height: 125px;
+}
   .nomargin{
       margin: 0;
       margin-left: 0%;

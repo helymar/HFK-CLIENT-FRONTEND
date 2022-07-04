@@ -88,12 +88,11 @@
       text-align: center;
       color: black;
       padding-left: 110px;
-  
+      margin-bottom: 10px;
   }
   .HFK-TitleBar{
     position: sticky;
     margin-top: 0px;
-    height: 70px;
     text-align: center;
     color: white;
     display:flex;
@@ -115,7 +114,7 @@
       padding-right: 0%;
   }
   .HFK-title-Card{
-      color: black;
+      color: #3D88E2;
       font-size: 20px;
       font-weight: bold;
       display: flex;
@@ -159,8 +158,8 @@
       align-items: right;
       padding-right: 32px;
       margin-top: -30px;
-  
   }
+  
   h1,
   h2,
   h3,
